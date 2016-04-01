@@ -12,6 +12,8 @@ From my point of view them most interesting points are:
 
 4) RouteConfig.cs, where a route is configured to allow the manifest be served by the MVC infrastructure. Here the most interesting point is how to setup the application to allow the usage of dots in the URL (read the comments).
 
+You can check how it works monitoring from where the files are downloaded in your browser using the developer tools. And validate if the browser's cache is enabled (some developer tools disable the cache automaticaly).
+
 Hope it helps!
 
 Glauco.
